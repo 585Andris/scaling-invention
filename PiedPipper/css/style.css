@@ -1,0 +1,260 @@
+@media screen and (max-width: 992px) {
+    .team__wrapper{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700italic - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html{
+    box-sizing: border-box;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+  body{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    color: #000;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007765;
+  }
+.wrapper{
+    max-width: 1219px;
+    padding: 0px 55px;
+    margin:0 auto;
+}
+.header__wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 19px;
+}
+.navbar__items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 8px;
+}
+.navbar__item-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+}
+.PiperNet{
+    background: url(../img/PiperNetBG.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 244px;
+    padding-bottom: 160px;
+}
+.title1{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+}
+.info{
+    background-color: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.info-1{
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.team{
+    background-color: #EEEEEE;
+    padding-top: 52px;
+    padding-bottom: 84px;
+}
+.green-title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color:#007765;
+    margin-bottom: 16px;
+}
+.bold1{
+    font-weight: 700;
+}
+.blueBG{
+    background: url(../img/blueBG.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.blueBG_text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.coin__p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.coin__p1-text{
+    max-width: 930px;
+}
+#the-problem:before {
+    display: block;
+    content: "";
+    height: 84px;
+    margin: -50px 0 0;
+}
+#piedpipercoin:before {
+    display: block;
+    content: "";
+    height: 84px;
+    margin: -50px 0 0;
+}
+#the-team:before {
+    display: block;
+    content: "";
+    height: 84px;
+    margin: -50px 0 0;
+}
+.team__wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 56px;
+}
+.team-member{
+    grid-column: span 4;
+    width: 350px;
+    height: 283px;
+    text-align: center;
+}
+.team__pic{
+    width: 168px;
+    height: 168px;
+    margin-bottom: 12px;
+}
+.team-member__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+}
+.team-member__subtitle{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+.footer{
+    background-color: #333;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.footer__content{
+    display: block;
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
